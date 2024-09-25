@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>culcolator</title>
+    </head>
+    <body>
+        <div class="items">
+            <h1 id="result">0</h1>
+
+            <main>
+
+                <div class="first-row">
+                    <button id="c">
+                       C
+                    </button>
+                    <button class="rem" id="rem">
+                        <img src="./remmove-button.png" class="img">
+                    </button>
+                    <button class="devis" data-display="&#247;" data-type="/">
+                        &#247;
+                    </button>
+                </div>
+                <div>
+                    <button  data-display="7" data-type="7">
+                        7
+                    </button>
+                    <button data-display="8" data-type="8">
+                        8
+                    </button>
+                    <button data-display="9" data-type="9">
+                        9
+                    </button>
+                    <button data-display="&#215;" data-type="*">
+                        &#215;
+                    </button>
+                </div>
+                <div>
+                    <button data-display="4" data-type="4">
+                        4
+                    </button>
+                    <button data-display="5" data-type="5">
+                        5
+                    </button>
+                    <button data-display="6" data-type="6">
+                        6
+                    </button>
+                    <button data-display="&#8722;" data-type="-">
+                        &#8722;
+                    </button>
+                </div>
+                <div>
+                    <button data-display="1" data-type="1">
+                        1
+                    </button>
+                    <button data-display="2" data-type="2">
+                        2
+                    </button>
+                    <button data-display="3" data-type="3">
+                        3
+                    </button>
+                    <button data-display="&#43;" data-type="+">
+                        &#43;
+                    </button>
+                </div>
+                <div class="first-row last-row">
+                    <button class="zero" data-display="0" data-type="0">
+                        0
+                    </button>
+                    <button data-display="," data-type=".">
+                        ,
+                    </button>
+                    <button id="eq">
+                        &#61;
+                    </button>
+                </div>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
