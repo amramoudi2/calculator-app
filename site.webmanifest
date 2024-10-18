@@ -1,5 +1,7 @@
 {
-    "name": "calculator",
-    "short_name": "calculator",
+    "name": "Leads Tracker",
+    "short_name": "Leads Tracker",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
